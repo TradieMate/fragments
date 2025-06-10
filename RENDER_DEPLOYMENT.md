@@ -33,6 +33,7 @@ In the Render dashboard, go to your service's Environment tab and add the follow
 ```
 E2B_API_KEY=your-e2b-api-key
 OPENAI_API_KEY=your-openai-api-key
+ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
 
 #### Recommended Variables:
@@ -44,13 +45,6 @@ RATE_LIMIT_WINDOW=60000
 
 #### Optional Variables (for enhanced functionality):
 ```
-# Additional LLM providers
-ANTHROPIC_API_KEY=your-anthropic-api-key
-GROQ_API_KEY=your-groq-api-key
-FIREWORKS_API_KEY=your-fireworks-api-key
-TOGETHER_API_KEY=your-together-api-key
-GOOGLE_AI_API_KEY=your-google-ai-api-key
-MISTRAL_API_KEY=your-mistral-api-key
 
 # Upstash KV for rate limiting and short URLs
 KV_REST_API_URL=your-kv-url

@@ -37,10 +37,11 @@ The repository has been cleaned up and optimized for production deployment:
 
 ## 🔧 Required Environment Variables for Render
 
-### Minimum Required (App won't work without these):
+### Required (App won't work without these):
 ```
 E2B_API_KEY=your-e2b-api-key
 OPENAI_API_KEY=your-openai-api-key
+ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
 
 ### Recommended for Production:
@@ -52,14 +53,6 @@ RATE_LIMIT_WINDOW=60000
 
 ### Optional (Enhanced Functionality):
 ```
-# Additional LLM Providers
-ANTHROPIC_API_KEY=your-anthropic-api-key
-GROQ_API_KEY=your-groq-api-key
-FIREWORKS_API_KEY=your-fireworks-api-key
-TOGETHER_API_KEY=your-together-api-key
-GOOGLE_AI_API_KEY=your-google-ai-api-key
-MISTRAL_API_KEY=your-mistral-api-key
-XAI_API_KEY=your-xai-api-key
 
 # Rate Limiting & Short URLs (Upstash KV)
 KV_REST_API_URL=your-kv-url
