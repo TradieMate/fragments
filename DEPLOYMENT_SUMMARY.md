@@ -51,22 +51,8 @@ RATE_LIMIT_MAX_REQUESTS=10
 RATE_LIMIT_WINDOW=60000
 ```
 
-### Optional (Enhanced Functionality):
+### Optional (Configuration Flags):
 ```
-
-# Rate Limiting & Short URLs (Upstash KV)
-KV_REST_API_URL=your-kv-url
-KV_REST_API_TOKEN=your-kv-token
-
-# Authentication (Supabase)
-SUPABASE_URL=your-supabase-url
-SUPABASE_ANON_KEY=your-supabase-anon-key
-
-# Analytics (PostHog)
-NEXT_PUBLIC_POSTHOG_KEY=your-posthog-key
-NEXT_PUBLIC_POSTHOG_HOST=your-posthog-host
-
-# Configuration Flags
 NEXT_PUBLIC_NO_API_KEY_INPUT=true    # Disable API key input in UI
 NEXT_PUBLIC_NO_BASE_URL_INPUT=true   # Disable base URL input in UI
 NEXT_PUBLIC_HIDE_LOCAL_MODELS=true   # Hide local models from list
